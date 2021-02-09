@@ -56,14 +56,3 @@ def validate_board(board):
         if r + R > 2:
             return False
     return True
-print(validate_board([
- "**** ****",
- "***1 ****",
- "**  3****",
- "* 4 1****",
- "     9 5 ",
- " 6  83  *",
- "3   4  **",
- "  8  2***",
- "  2  ****"
-]))
