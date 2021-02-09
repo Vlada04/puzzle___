@@ -7,8 +7,9 @@ def validate_board(board):
     The colored cells of each column must\
     contain the numbers 1 to 9 without repetition.
 
+
     Each block of cells of the same color must\
-    contain numbers from 1 to 9 without repetition.
+    contain numbers from 1 to 9 without repetitiion.
     >>> print(validate_board(["**** ****", "***1 ****", "**  3****",\
     "* 4 1****", "     9 5 ", " 6  83  *", "3   4  **", "  8  2***", "  2  ****"]))
     True
